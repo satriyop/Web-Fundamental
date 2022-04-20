@@ -1,0 +1,43 @@
+/* CSS Selector  */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+header {
+  background-color: #e7e7e7;
+}
+
+article {
+    color: red;
+}
+/* Di bawah ini adalah Element Selector */
+p {
+  color: blue;
+}
+
+/* Di bawah ini adalah Class Selector */
+.menu {
+  list-style: none;
+  padding: 0;;
+}
+
+.menu-item {
+  display: inline;
+}
+
+.content-body {
+  color: inherit;
+  border: 1px solid grey;
+}
+
+
+/* Di bawah ini adalah ID Selector */
+#content-body-id {
+  color:green;
+}
+
+/* Di bawah ini adalah Grouping Selector - Multiple Selector */
+h3, h4, h5 {
+  color: purple;
+}

@@ -1,0 +1,152 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  background:grey;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: blue;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.one {
+  height: 150px;
+  background:tomato;
+  flex-grow: 1;
+}
+
+.seven {
+  height: 200px;
+  background:#593f6e
+
+}
+.eight {
+/*   flex-grow: 1; */
+  height: 150px;
+  background:pink;
+
+}
+
+nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+/** Basic Stylinng */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #e7e7e7;
+  padding: 15px 20px;
+/*   margin : 0 20px; */
+  background-clip : padding-box;
+  text-align: center;
+}
+
+
+article {
+  padding-right: 40px;
+  padding-left: 40px;
+  margin: 0 40px;
+  border-bottom: 6px solid #3cd3d0;
+  border-right: 2px solid #3cd3d0;
+  border-radius: 0 0 10px 0;
+}
+
+footer {
+  padding: 0 40px;
+  text-align: right;
+}
+
+h1 {
+  border-bottom: 8px solid #3cd3d0;
+/*   border-left: 8px solid #3cd3d0; */
+  border-right: 4px solid #3cd3d0;
+
+  width: 200px;
+  text-align: left;
+  display: block;
+  padding : 5px 15px;
+}
+/** Class Selector */
+.menu {
+  list-style: none;
+  padding: 10px 0 ;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline;
+  padding: 5px;
+  margin: 0 5px;
+  border: 2px solid black;
+}
+
+
+
+/** Pseudo class */
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+a:link {
+  color: #D6FEE;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #D6FEE
+}
+
+a:hover {
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+.menu-item:hover {
+  background-color: black;
+  background-clip: padding-box;
+  color:white;
+}
+
+.menu-item:hover a {
+    color: inherit;
+}
+
+
+h2 + p::first-letter {
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 red;
+  font-size: 150%;
+  padding: 6px 3px;
+  margin-right: 6px;
+  float: left;
+}

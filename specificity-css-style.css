@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+header {
+  background-color: #e7e7e7;
+}
+
+
+/** Class Selector */
+.menu {
+  list-style: none;
+  padding: 0;;
+}
+
+.menu-item {
+  display: inline;
+}
+
+
+/* Specificity CSS */
+
+#id-selector {
+  color: red;
+}
+
+.class-selector {
+  color:green;
+}
+
+li {
+  color:pink
+}
+
+

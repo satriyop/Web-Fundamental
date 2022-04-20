@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Selector CSS</title>
+<!--   Ini CSS yang dipakai - Coba Lihat -->
+  <link href="selector-css-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="index.html">🏠Home</a></li>
+        <li class="menu-item"><a href="lesson-html.html">🦴HTML</a></li>
+        <li class="menu-item"><a href="lesson-css.html">💄CSS </a></li>
+      </ul>
+    </nav>
+  <h1>Memahami CSS Selector</h1>
+    
+  </header>
+  
+
+  <article>
+    <h2>Menggunakan element Selector</h2>
+    <p>Untuk menggunakan element selector kita langsung memilih jenis element yang akan kita berikan style. Lihatlah file <pre>selector-css-style.css</pre> untuk melihat detailnya.</p>
+    <p> Dari sini kita bisa melihat bahwa dengan memilih elemen paragraph, akan mempengaruhi semua style pada elemen tersebut yang mana seringkali kita tidak menginginkan hal tersebut.</p>
+  </article>
+
+
+  <article>
+      <h2>Menggunakan Class & ID CSS sebagai cara terbaik</h2>
+      <p class="content-body">Bila kita menggunakan Element Selector saja, kita akan menyadari bahwa cara ini tidak efisien, karena bila kita akan mengaplikasi beberapa style yang berbeda pada satu jenis elemen, maka kita akan menemui kesulitan. Maka daripada itu Selector yang paling banyak digunakan oleh pengembang website adalah menggunakan Class Selector dalam memberikan style pada sebuah website, hal ini dikarenakan penggunakan class bisa digunakan secara berulang .</p>
+    
+    <p id="content-body-id" class="content-body">Kita juga bisa menggunakan id selector, hanya saja penggunaan id selector dalam satu halaman hanya diperbolehkan satu kali saja.</p>
+  </article>
+
+    <article>
+    <h2>Multiple Selector (Grouping)</h2>
+    <h3>Selector 1.</h3>
+      <h4>Selector 2. </h4>
+        <h5>Selector 3.</h5>
+    <p> Dari sini kita bisa melihat bahwa dengan memilih elemen paragraph, akan mempengaruhi semua style pada elemen tersebut yang mana seringkali kita tidak menginginkan hal tersebut.</p>
+  </article>
+  
+  <footer>
+    <p>Celerates. &copy 2022 by <img src="assets/twitter.png" width="15px" height=15px"/><a href="https://twitter.com/satriyop">satriyop</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

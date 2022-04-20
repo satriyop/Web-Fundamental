@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tentang CSS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="index.html">🏠Home</a></li>
+        <li class="menu-item"><a href="lesson-html.html">🦴HTML</a></li>
+        <li class="menu-item"><a href="lesson-css.html">💄CSS </a></li>
+      </ul>
+    </nav>
+    <h1>Pengenalan CSS</h1>
+  </header>
+  
+  <article>
+    <h2>Penggunaan dan penulisan CSS</h2>
+    <p> Ada 3 cara dalam memberikan style (menuliskan CSS) ke dalam sebuah website yaitu : </p>
+    <ul>
+      <li><a href="lesson-css-inline.html">Inline</a></li>
+      <li><a href="lesson-css-internal.html">Internal</a></li>
+      <li><a href="lesson-css-external.html">External</a></li>
+    </ul>
+  </article> 
+
+  <article>
+  <h2>Styling Text menggunakan CSS</h2>
+  <p>Penggunaan css paling banyak dilakukan dalam sebuat elemen Text. Hal ini karena kontek dari sebuah website pada umumnya berbentuk kontek teks. Ada banyak hal yang bisa dilakukan dalam memberikan style pada element text, antara lain : </p>
+  <ul>
+    <li>color : 
+        <span style="color: orange;"> name</span> 
+        <span style="color:#00eebb;">hex</span> 
+        <span style="color:rgb(30,100,30)">rgb</span>
+    </li>
+    <li>font-size : 
+        <span style="font-size:30px">big </span>
+        <span style="font-size:50px">bigger </span>
+        <span style="font-size:80px">biggest</span></li>
+    <li style="font-weight:700;">font-weight :
+        <span style="font-weight:100">number </span>
+        <span style="font-weight:bold">bold </span>
+        <span style="font-weight:lighter">lighter</span> </li>
+    <li>font-family :
+        <span style="font-family:Times New Roman, Times, serif;">Times New Roman </span>
+        <span style="font-family:Arial, Times, serif;">Arial </span>
+        <span style="font-family:Helvetica New Roman, Times, serif;">Helvetica </span>
+    </li>
+    <li>text-transform :
+        <span style="text-transform:lowercase;">LOWERCASE </span>
+        <span style="text-transform:uppercase;">uppercase </span>
+        <span style="text-transform:capitalize;">capitalize </span>
+    </li>
+    <li>font-style :
+        <span style="font-style:normal;">normal </span>
+        <span style="font-style:italic;">italic </span>
+        <span style="font-style:oblique;">oblique </span>
+    </li>
+    <li>line-height :
+        <span style="line-height:3; ">unitless </span>
+    </li>
+    <li>text-align
+        <p style="text-align:start; border:1px solid blue;">start </p>
+        <p style="text-align:center;border:1px solid blue;">center </p>
+        <p style="text-align:end;border:1px solid blue;">end </p>
+
+    </li>
+  </ul>
+</article>
+
+  <article>
+  <h2>Menggunakan Selector CSS untuk memilih elemen HTML</h2> 
+  <p>Supaya kita bisa memberikan style untuk elemen HTML, maka kita perlu memilih (select) elemen tersebut. Kita bisa menggunakan selector CSS untuk hal tersebut. Ada beberapa jenis selector yang bisa digunakan, antara lain : </p>
+  <ul>
+    <li>Element Selector</li>
+    <li>Class Selector</li>
+    <li>Id Selector</li>
+  </ul>  
+  <p> Selain itu kita bisa juga mengkombinasikan beberapa selector sekaligus, supaya lebih efisien (hal ini akan mempengaruhi dari sisi scalability dan juga performance dari website tersebut). Baca lebih lanjut tentang <a href="lesson-css-selector.html">Selector Di Sini</a></p>
+</article>
+
+  <article>
+  <h2>Mengenal Pseudo Class & Pseudo Element</h2>
+  <p>Dalam CSS, kita mengenal pseudo class dengan tanda (:). Dengan pseudo class ini kita bisa memberikan styling berdasarkan <em>state</em> dari elemen tersebut.</p> 
+  
+  <p> Dua contoh dari penggunaan pseudo class yang populer adalah untuk memeberikan style pada elemen anchor berdasarkan apakah link pada anchor tersebut sudah diklik, baru dihover, dan lain sebagainya. Contoh penggunaan yang kedua adalah untuk memilih child element dari sebuah parent element. Penggunaan dan contoh-contoh lain dari pseudo class bisa dibaca lebih lanjut di sini : <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes ">MDN Pseudo Class</a></p>
+
+  </article>
+
+  <article>
+  <h2>Specificity & Inheritance dalam CSS</h2>
+  <p>Specificity dalam CSS adalah aturan dasar yang hal memilih styling mana yang akan lebih diprioritaskan ketika ada dua atau lebih styling pada satu elemen HTML. Sila cermati file css untuk Halaman <a href="lesson-css-selector.html">Selector</a> untuk memahami kedua konsep ini serta baca di halaman <a href="lesson-css-specificity.html">Specificity</a></p>
+  </article>
+
+  <article>
+  <h2>Box Model CSS</h2>
+    <p>Semuanya elemen pada dasarnya adalah berbentuk kotak (box). Ada dua jenis box utama dalam css yaitu : block dan inline yang menentukan bagaimana sebuah elemen akan memposisikan diri terhadap elemen lainnya. Dari sini kita akan memahami lebih lanjut tentang penggunaan margin dan padding, serta borer. Mari kita lihat <a href="lesson-css-box-model.html">Box Model</a> untuk penjelasan lebih lanjut. </p>
+  </article>
+
+  <article>
+  <h2>Membuat Layout dengan CSS</h2>
+  <p>Ada beberapa cara membuat layout dengan CSS antara lain : float, flexbox, grid. Tulisan pertama dari setiap paragraf kita ini menggunakan teknik float. Meskipun begitu dua teknis yang populer saat ini untuk memembuat layout adalah flexbox dan grid. Kita akan belajar <a href="lesson-css-layout.html">Flexbox di sini.</a></p>
+  </article>
+
+  <footer>
+    <p>Celerates. &copy 2022 by <img src="assets/twitter.png" width="15px" height=15px"/><a href="https://twitter.com/satriyop">satriyop</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

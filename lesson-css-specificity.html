@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Specificity dalam CSS</title>
+<!--   Ini CSS yang dipakai - Coba Lihat -->
+  <link href="specificity-css-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="index.html">🏠Home</a></li>
+        <li class="menu-item"><a href="lesson-html.html">🦴HTML</a></li>
+        <li class="menu-item"><a href="lesson-css.html">💄CSS </a></li>
+      </ul>
+    </nav>
+  <h1>Specificity dalam CSS</h1>    
+  </header>
+  
+
+  <article>
+    <h2>Memahami apa itu Specificity dalam CSS</h2>
+    <p>Specificity dalam CSS adalah aturan dasar yang hal memilih styling mana yang akan lebih diprioritaskan ketika ada dua atau lebih cara styling pada satu elemen HTML</p>
+    <p>Secara singkat tingkat specificity CSS secara urutan dari yang paling tinggi adalah :
+      <ol>
+        <li style="color: blue;">Inline CSS</li>
+        <li id="id-selector">ID Selector</li>
+        <li class="class-selector">Class Selector</li>
+        <li>Element Selector</li>
+      </ol>
+    Kita bisa baca lebih lanjut tentang specificity ini di <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Dokumentasi</a>
+    </p>
+  </article>
+
+  <footer>
+    <p>Celerates. &copy 2022 by <img src="assets/twitter.png" width="15px" height=15px"/><a href="https://twitter.com/satriyop">satriyop</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
